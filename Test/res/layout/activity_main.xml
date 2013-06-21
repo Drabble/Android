@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+  android:paddingLeft="10dip"
+  android:paddingRight="10dip">
+  
+  <Button
+  	android:id="@+id/bold"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_alignParentLeft="true"
+  	android:layout_alignParentTop="true"
+  	android:text="Bold"
+  	/>
+  <Button
+  	android:id="@+id/italic"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_centerHorizontal="true"
+  	android:layout_alignParentTop="true"
+  	android:text="Italic"/>
+  <Button
+  	android:id="@+id/underline"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_alignParentRight="true"
+  	android:layout_alignParentTop="true"
+  	android:text="Underline"/>
+  <TextView
+    android:id="@+id/smiley"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Smiley : "
+    android:textStyle="bold"
+    android:layout_below="@id/italic"/>
+  <Button
+  	android:id="@+id/underline"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="Cacher"
+  	android:layout_below="@id/smiley"
+  	android:background="@drawable/button"/>
+
+</RelativeLayout>
